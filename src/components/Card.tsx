@@ -1,15 +1,12 @@
-interface ICard {
-  id: number,
-  paragraph: string,
-  details: string
-}
+import { LoginForm } from "./Forms/Login";
+import { Header } from "./Header/Header";
 
-export const Card = ({ id, paragraph, details }: ICard) => {
-  return(
-    <div>
-      <h1>Card {id}</h1>
-      <p>{paragraph}</p>
-      <p>{details}</p>
-    </div>
-  )
-}
+
+export const Card = () => {
+  return (
+    <>
+      <Header />
+      <LoginForm />
+    </>
+  );
+};
