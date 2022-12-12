@@ -17,10 +17,11 @@ export const AcceptButton = ({click}: props) => {
         backgroundColor={"#E4105D"}
         color={"#FFFFFF"}
         size="sm"
-        width="100%"
+        width="40%"
         marginTop="5px"
+        borderRadius="50px"
       >
-        Button
+        Entrar
       </Button>
     </Center>
   );
